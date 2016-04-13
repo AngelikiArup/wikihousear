@@ -34,14 +34,14 @@
 17 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
 18 verbose request uri https://registry.npmjs.org/gulp
 19 verbose request no auth needed
-20 info attempt registry request try #1 at 2:41:40 PM
-21 verbose request id e98e95a6f1c2da96
+20 info attempt registry request try #1 at 3:29:01 PM
+21 verbose request id 20b4d65235671cae
 22 http request GET https://registry.npmjs.org/gulp
 23 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
-24 info attempt registry request try #2 at 2:41:50 PM
+24 info attempt registry request try #2 at 3:29:11 PM
 25 http request GET https://registry.npmjs.org/gulp
 26 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
-27 info attempt registry request try #3 at 2:42:50 PM
+27 info attempt registry request try #3 at 3:30:11 PM
 28 http request GET https://registry.npmjs.org/gulp
 29 verbose stack Error: tunneling socket could not be established, cause=socket hang up
 29 verbose stack     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)

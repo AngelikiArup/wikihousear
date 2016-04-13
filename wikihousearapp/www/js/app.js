@@ -69,12 +69,12 @@ angular.module('wikihousear', ['ionic', 'wikihousear.controllers', 'wikihousear.
       }
     })
 
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.about', {
+    url: '/about',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-about': {
+        templateUrl: 'templates/tab-about.html',
+        controller: 'AboutCtrl'
       }
     }
   })
@@ -84,7 +84,7 @@ angular.module('wikihousear', ['ionic', 'wikihousear.controllers', 'wikihousear.
   //  views: {
   //    'tab-angeliki': {
   //      templateUrl: 'templates/tab-angeliki.html',
-        //controller: 'AccountCtrl'
+        //controller: 'AboutCtrl'
   //    }
   //  }
   //});
